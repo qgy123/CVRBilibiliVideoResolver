@@ -11,7 +11,7 @@ Usage:
 - just drop it under `ChilloutVR\Mods`
 
 About:
-- Just a simple quick hack since either youtube-dl or ytb-dl works for Chillout VR right now, because Bilibili will check referer and might separate video into audio and video, or use unsupported video codec for AVPro Player. This mod will try to spoof API using html5 platform and ask for high-quality video (bypass 320p restrictions, Thanks MicroCBer for helping me find out this trick together!)
+- Just a simple quick hack since either youtube-dl or ytb-dl works for Chillout VR right now, because Bilibili will check referer and might separate video into audio and video, or use unsupported video codec for AVPro Player. This mod will try to spoof API using html5 platform and ask for high-quality video (bypass 320p restrictions, Thanks [MicroCBer](https://github.com/MicroCBer) for helping me find out this trick together!)
 
 
 ### License
