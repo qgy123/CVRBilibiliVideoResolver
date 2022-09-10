@@ -4,8 +4,6 @@ using ABI_RC.VideoPlayer.Scripts;
 using HarmonyLib;
 using MelonLoader;
 using System;
-using System.IO;
-using System.IO.Compression;
 using System.Net;
 using System.Net.Http;
 using System.Text.RegularExpressions;
@@ -16,12 +14,12 @@ namespace CVRBilibiliVideoResolver
 {
     public static class BuildInfo
     {
-        public const string Name = "CVRBilibiliVideoResolver"; // Name of the Mod.  (MUST BE SET)
-        public const string Description = "Resolve video link from bilibili.com"; // Description for the Mod.  (Set as null if none)
-        public const string Author = "YueLuo"; // Author of the Mod.  (MUST BE SET)
-        public const string Company = null; // Company that made the Mod.  (Set as null if none)
-        public const string Version = "1.0.0"; // Version of the Mod.  (MUST BE SET)
-        public const string DownloadLink = null; // Download Link for the Mod.  (Set as null if none)
+        public const string Name = "CVRBilibiliVideoResolver";
+        public const string Description = "Resolve video link from bilibili.com";
+        public const string Author = "YueLuo";
+        public const string Company = null;
+        public const string Version = "1.0.0";
+        public const string DownloadLink = "https://github.com/qgy123/CVRBilibiliVideoResolver";
     }
 
     public class CVRBilibiliVideoResolver : MelonMod
@@ -55,8 +53,6 @@ namespace CVRBilibiliVideoResolver
 
                 if (!string.IsNullOrWhiteSpace(source))
                 {
-                    // logger.Msg(source);
-
                     const string pattern = @"{""p"":(?:\d+),(?:.*?)""aid"":(\d+),""bvid"":""(?:.*?)"",""cid"":(\d+)";
                     var match = Regex.Match(source, pattern, RegexOptions.Multiline);
                     if (match.Success)
