@@ -1,9 +1,18 @@
-### GENERAL INFORMATION:
+### CVRBilibiliVideoResolver:
 
-- An Example Mod for [MelonLoader](https://github.com/LavaGang/MelonLoader).
+- bilibili video link resolver Mod for Chillout VR.
 
 ---
 
-### LICENSING & CREDITS:
+Requirements:
+- [MelonLoader](https://github.com/LavaGang/MelonLoader#how-to-use-the-installer)
 
-TestMod is licensed under the Apache License, Version 2.0. See [LICENSE](https://github.com/LavaGang/TestMod/blob/master/LICENSE.md) for the full License.
+Usage:
+- just drop it under `ChilloutVR\Mods`
+
+About:
+- Just a simple quick hack since either youtube-dl or ytb-dl works for Chillout VR right now, because Bilibili will check referer and might separate video into audio and video, or use unsupported video codec for AVPro Player. This mod will try to spoof API using html5 platform and ask for high-quality video (bypass 320p restrictions, Thanks MicroCBer for helping me find out this trick together!)
+
+
+### License
+CVRBilibiliVideoResolver is licensed under the Apache License, Version 2.0. But do whatever you want.
