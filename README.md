@@ -1,6 +1,6 @@
 ### CVRBilibiliVideoResolver:
 
-- bilibili video link resolver Mod for Chillout VR.
+- A bilibili video link resolver Mod for Chillout VR. Add ability to resolve video link from bilibili.com
 
 ---
 

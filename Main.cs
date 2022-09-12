@@ -15,7 +15,7 @@ namespace CVRBilibiliVideoResolver
     public static class BuildInfo
     {
         public const string Name = "CVRBilibiliVideoResolver";
-        public const string Description = "Resolve video link from bilibili.com";
+        public const string Description = "Add ability to resolve video link from bilibili.com";
         public const string Author = "YueLuo";
         public const string Company = null;
         public const string Version = "1.0.0";
